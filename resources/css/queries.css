@@ -97,6 +97,9 @@
     .contact-form {width: 100%;}
     body {text-size: 130%;}
     .logo {
-    height: 100px;
+    height: 100px;}
+    header img {
+    width: 100%;
+    height: 100px;}
     
 }
