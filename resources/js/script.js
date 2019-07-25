@@ -91,6 +91,26 @@ $('a[href*="#"]')
 
 
 
+/*mobile navigation*/
+
+$('.js--nav-icon').click(function() {
+    var nav = $('.js--name-nav');
+    var icon = $('.js--nav-icon ion-icon')
+    
+    nav.slideToggle(200);
+    if (icon.hasClass('cross')){
+        icon.addClass('icon ion-md-close-circle');
+        icon.removeClass('cross');
+    }
+    else {
+        icon.addClass('cross');
+        icon.removeClass('icon ion-md-close-circle');
+        
+    }
+ 
+});
+
+
                             
 
 
